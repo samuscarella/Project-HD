@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		DC5215C720D19CAA001DE1F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5215C620D19CAA001DE1F6 /* AppDelegate.swift */; };
-		DC5215C920D19CAA001DE1F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5215C820D19CAA001DE1F6 /* ViewController.swift */; };
-		DC5215CC20D19CAA001DE1F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5215CA20D19CAA001DE1F6 /* Main.storyboard */; };
+		DC5215CC20D19CAA001DE1F6 /* MainVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5215CA20D19CAA001DE1F6 /* MainVC.storyboard */; };
 		DC5215CF20D19CAA001DE1F6 /* ProjectHD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC5215CD20D19CAA001DE1F6 /* ProjectHD.xcdatamodeld */; };
 		DC5215D120D19CAC001DE1F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5215D020D19CAC001DE1F6 /* Assets.xcassets */; };
 		DC5215D420D19CAC001DE1F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5215D220D19CAC001DE1F6 /* LaunchScreen.storyboard */; };
+		DC5215DF20D1A650001DE1F6 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5215DE20D1A650001DE1F6 /* MainVC.swift */; };
+		DC5215E220D1B262001DE1F6 /* NC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5215E120D1B262001DE1F6 /* NC.swift */; };
+		DC5215ED20D1B512001DE1F6 /* TF.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5215EC20D1B512001DE1F6 /* TF.swift */; };
+		DC5215F120D1B800001DE1F6 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5215F020D1B800001DE1F6 /* Repository.swift */; };
+		DC5215F820D1CE56001DE1F6 /* RepoListCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5215F620D1CE56001DE1F6 /* RepoListCVC.swift */; };
+		DC5215F920D1CE56001DE1F6 /* RepoListCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC5215F720D1CE56001DE1F6 /* RepoListCVC.xib */; };
+		DC5215FB20D1D089001DE1F6 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5215FA20D1D089001DE1F6 /* UIViewExtensions.swift */; };
+		DC5215FE20D1D0C9001DE1F6 /* DirectionEN.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5215FD20D1D0C9001DE1F6 /* DirectionEN.swift */; };
+		DC52160120D1D254001DE1F6 /* RepoGridCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5215FF20D1D254001DE1F6 /* RepoGridCVC.swift */; };
+		DC52160220D1D254001DE1F6 /* RepoGridCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC52160020D1D254001DE1F6 /* RepoGridCVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC5215C320D19CAA001DE1F6 /* ProjectHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectHD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5215C620D19CAA001DE1F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC5215C820D19CAA001DE1F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC5215CB20D19CAA001DE1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC5215CB20D19CAA001DE1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainVC.storyboard; sourceTree = "<group>"; };
 		DC5215CE20D19CAA001DE1F6 /* ProjectHD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjectHD.xcdatamodel; sourceTree = "<group>"; };
 		DC5215D020D19CAC001DE1F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC5215D320D19CAC001DE1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC5215D520D19CAC001DE1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5215DE20D1A650001DE1F6 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		DC5215E120D1B262001DE1F6 /* NC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC.swift; sourceTree = "<group>"; };
+		DC5215EC20D1B512001DE1F6 /* TF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TF.swift; sourceTree = "<group>"; };
+		DC5215F020D1B800001DE1F6 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		DC5215F620D1CE56001DE1F6 /* RepoListCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListCVC.swift; sourceTree = "<group>"; };
+		DC5215F720D1CE56001DE1F6 /* RepoListCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepoListCVC.xib; sourceTree = "<group>"; };
+		DC5215FA20D1D089001DE1F6 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		DC5215FD20D1D0C9001DE1F6 /* DirectionEN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionEN.swift; sourceTree = "<group>"; };
+		DC5215FF20D1D254001DE1F6 /* RepoGridCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoGridCVC.swift; sourceTree = "<group>"; };
+		DC52160020D1D254001DE1F6 /* RepoGridCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepoGridCVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,144 @@
 		DC5215C520D19CAA001DE1F6 /* ProjectHD */ = {
 			isa = PBXGroup;
 			children = (
+				DC5215EE20D1B7E1001DE1F6 /* Models */,
+				DC5215E820D1B4ED001DE1F6 /* Views */,
+				DC5215E320D1B3AA001DE1F6 /* Utils */,
+				DC5215DD20D1A612001DE1F6 /* Storyboards */,
+				DC5215DB20D1A5FF001DE1F6 /* Controllers */,
 				DC5215C620D19CAA001DE1F6 /* AppDelegate.swift */,
-				DC5215C820D19CAA001DE1F6 /* ViewController.swift */,
-				DC5215CA20D19CAA001DE1F6 /* Main.storyboard */,
 				DC5215D020D19CAC001DE1F6 /* Assets.xcassets */,
 				DC5215D220D19CAC001DE1F6 /* LaunchScreen.storyboard */,
 				DC5215D520D19CAC001DE1F6 /* Info.plist */,
 				DC5215CD20D19CAA001DE1F6 /* ProjectHD.xcdatamodeld */,
 			);
 			path = ProjectHD;
+			sourceTree = "<group>";
+		};
+		DC5215DB20D1A5FF001DE1F6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC5215DC20D1A605001DE1F6 /* UIViewControllers */,
+				DC5215E120D1B262001DE1F6 /* NC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DC5215DC20D1A605001DE1F6 /* UIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC5215DE20D1A650001DE1F6 /* MainVC.swift */,
+			);
+			path = UIViewControllers;
+			sourceTree = "<group>";
+		};
+		DC5215DD20D1A612001DE1F6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DC5215CA20D19CAA001DE1F6 /* MainVC.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DC5215E320D1B3AA001DE1F6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DC5215FC20D1D0BB001DE1F6 /* Enum */,
+				DC5215E420D1B3AE001DE1F6 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DC5215E420D1B3AE001DE1F6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC5215E520D1B3B5001DE1F6 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DC5215E520D1B3B5001DE1F6 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				DC5215FA20D1D089001DE1F6 /* UIViewExtensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		DC5215E820D1B4ED001DE1F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC5215EA20D1B4FD001DE1F6 /* Xibs */,
+				DC5215E920D1B4F3001DE1F6 /* Code */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC5215E920D1B4F3001DE1F6 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				DC5215F420D1CE1D001DE1F6 /* UICollectionViewCell */,
+				DC5215EB20D1B501001DE1F6 /* UITextField */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		DC5215EA20D1B4FD001DE1F6 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				DC5215F520D1CE28001DE1F6 /* UICollectionViewCell */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		DC5215EB20D1B501001DE1F6 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				DC5215EC20D1B512001DE1F6 /* TF.swift */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		DC5215EE20D1B7E1001DE1F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC5215EF20D1B7EE001DE1F6 /* Memory */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC5215EF20D1B7EE001DE1F6 /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				DC5215F020D1B800001DE1F6 /* Repository.swift */,
+			);
+			path = Memory;
+			sourceTree = "<group>";
+		};
+		DC5215F420D1CE1D001DE1F6 /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DC5215F620D1CE56001DE1F6 /* RepoListCVC.swift */,
+				DC5215FF20D1D254001DE1F6 /* RepoGridCVC.swift */,
+			);
+			path = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		DC5215F520D1CE28001DE1F6 /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DC5215F720D1CE56001DE1F6 /* RepoListCVC.xib */,
+				DC52160020D1D254001DE1F6 /* RepoGridCVC.xib */,
+			);
+			path = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		DC5215FC20D1D0BB001DE1F6 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				DC5215FD20D1D0C9001DE1F6 /* DirectionEN.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC5215D420D19CAC001DE1F6 /* LaunchScreen.storyboard in Resources */,
+				DC52160220D1D254001DE1F6 /* RepoGridCVC.xib in Resources */,
 				DC5215D120D19CAC001DE1F6 /* Assets.xcassets in Resources */,
-				DC5215CC20D19CAA001DE1F6 /* Main.storyboard in Resources */,
+				DC5215F920D1CE56001DE1F6 /* RepoListCVC.xib in Resources */,
+				DC5215CC20D19CAA001DE1F6 /* MainVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +287,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5215F120D1B800001DE1F6 /* Repository.swift in Sources */,
+				DC5215E220D1B262001DE1F6 /* NC.swift in Sources */,
+				DC52160120D1D254001DE1F6 /* RepoGridCVC.swift in Sources */,
+				DC5215FB20D1D089001DE1F6 /* UIViewExtensions.swift in Sources */,
 				DC5215CF20D19CAA001DE1F6 /* ProjectHD.xcdatamodeld in Sources */,
-				DC5215C920D19CAA001DE1F6 /* ViewController.swift in Sources */,
+				DC5215F820D1CE56001DE1F6 /* RepoListCVC.swift in Sources */,
+				DC5215DF20D1A650001DE1F6 /* MainVC.swift in Sources */,
 				DC5215C720D19CAA001DE1F6 /* AppDelegate.swift in Sources */,
+				DC5215FE20D1D0C9001DE1F6 /* DirectionEN.swift in Sources */,
+				DC5215ED20D1B512001DE1F6 /* TF.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DC5215CA20D19CAA001DE1F6 /* Main.storyboard */ = {
+		DC5215CA20D19CAA001DE1F6 /* MainVC.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DC5215CB20D19CAA001DE1F6 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainVC.storyboard;
 			sourceTree = "<group>";
 		};
 		DC5215D220D19CAC001DE1F6 /* LaunchScreen.storyboard */ = {
@@ -287,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WDH9HLP3XG;
 				INFOPLIST_FILE = ProjectHD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +451,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.eliteiosdevelopment.ProjectHD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WDH9HLP3XG;
 				INFOPLIST_FILE = ProjectHD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +470,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.eliteiosdevelopment.ProjectHD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

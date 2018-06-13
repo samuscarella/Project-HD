@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NC.swift
 //  ProjectHD
 //
 //  Created by Stephen Muscarella on 6/13/18.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NC: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        navigationBar.barTintColor = UIColor.orange
     }
-
-
+    
 }
-
