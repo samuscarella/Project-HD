@@ -44,7 +44,7 @@ class MainVC: UIViewController, UITextFieldDelegate, UICollectionViewDelegate, U
         Layout.minimumLineSpacing = 5
         Layout.scrollDirection = .vertical
         
-        targetSize = CGSize(width: view.bounds.width, height: 100)
+        targetSize = CGSize(width: view.bounds.width - 10, height: 100)
         
         userTF.addViewBackedBorder(side: .south, thickness: 1.0, color: UIColor.lightGray)
         userTF.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
@@ -98,15 +98,13 @@ class MainVC: UIViewController, UITextFieldDelegate, UICollectionViewDelegate, U
     }
     
     func fetchNextRepos() {
+        
         offset += 1
+        refreshControl?.beginRefreshing()
         fetchRepos()
     }
     
     func fetchRepos(refresh: Bool = false) {
-
-        DispatchQueue.main.async {
-            self.refreshControl?.beginRefreshing()
-        }
         
         task?.cancel()
         url = URL(string: BaseUrl + self.userOrOrganization! + "/repos?page=\(offset)&per_page=\(PerPage)")!
@@ -129,25 +127,26 @@ class MainVC: UIViewController, UITextFieldDelegate, UICollectionViewDelegate, U
                     self.repos = []
                 }
                 
-                if jsonArray.count > 0 {
-                    
-                    self.refreshControl = UIRefreshControl()
-                    self.refreshControl?.addTarget(self, action: #selector(self.refreshRepos), for: .valueChanged)
-                    self.collectionView.refreshControl = self.refreshControl
-                    
-                    for json in jsonArray {
+                for json in jsonArray {
                         
-                        let repository = Repository(json: json)
-                        self.repos.append(repository)
-                    }
-                } else {
-                    self.refreshControl = nil
+                    let repository = Repository(json: json)
+                    self.repos.append(repository)
                 }
                 
                 self.firstLoad = true
                 self.shouldShowLoadingCell = self.repos.count < self.numberOfRepos
                 
                 DispatchQueue.main.async {
+                    
+                    if self.repos.count > 0 {
+                        
+                        self.refreshControl = UIRefreshControl()
+                        self.refreshControl?.addTarget(self, action: #selector(self.refreshRepos), for: .valueChanged)
+                        self.collectionView.refreshControl = self.refreshControl
+                        
+                    } else {
+                        self.refreshControl = nil
+                    }
                     
                     self.refreshControl?.endRefreshing()
                     self.collectionView.reloadData()
@@ -209,7 +208,7 @@ class MainVC: UIViewController, UITextFieldDelegate, UICollectionViewDelegate, U
         if segmentControl.selectedSegmentIndex == 0 {
             
             Layout.minimumLineSpacing = 5
-            targetSize = CGSize(width: view.bounds.width, height: 100)
+            targetSize = CGSize(width: view.bounds.width - 10, height: 100)
             
         } else {
             
