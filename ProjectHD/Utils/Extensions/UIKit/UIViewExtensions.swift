@@ -11,6 +11,18 @@ import UIKit
 
 extension UIView {
     
+    func addDropShadow(radius: CGFloat, color: UIColor?) {
+        
+        if color != nil {
+            self.layer.shadowColor = color!.cgColor
+        } else {
+            self.layer.shadowColor = UIColor.black.cgColor
+        }
+        self.layer.shadowOpacity = 1
+        self.layer.shadowOffset = CGSize.zero
+        self.layer.shadowRadius = radius
+    }
+    
     func addViewBackedBorder(side: Direction, thickness: CGFloat, color: UIColor, leftOffset: CGFloat = 0, rightOffset: CGFloat = 0, topOffset: CGFloat = 0, bottomOffset: CGFloat = 0) {
         
         switch side {

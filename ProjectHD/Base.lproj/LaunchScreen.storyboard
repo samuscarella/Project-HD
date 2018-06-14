@@ -17,7 +17,20 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.50881618923611116" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home-depot" translatesAutoresizingMaskIntoConstraints="NO" id="Shq-Ls-uWI">
+                                <rect key="frame" x="107.5" y="253.5" width="160" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="G4B-ke-A6m"/>
+                                    <constraint firstAttribute="height" constant="160" id="Iak-Lz-b9O"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99215686274509807" green="0.34509803921568627" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Shq-Ls-uWI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="AQN-z6-VZh"/>
+                            <constraint firstItem="Shq-Ls-uWI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Flt-tv-B6a"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -26,4 +39,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="home-depot" width="500" height="500"/>
+    </resources>
 </document>

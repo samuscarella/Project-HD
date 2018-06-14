@@ -22,39 +22,37 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cEK-gU-YI7">
                         <rect key="frame" x="5" y="5" width="165" height="150"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="example-package-dealer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEc-RN-aMu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="example-project-hear" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEc-RN-aMu">
                                 <rect key="frame" x="5" y="3" width="155" height="39"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="39" id="bZD-Nv-IOl"/>
+                                    <constraint firstAttribute="height" constant="39" id="bZD-Nv-IOl"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="example-package-dealer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0t-M2-e0b">
-                                <rect key="frame" x="5" y="50" width="155" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="39" id="N0f-h5-VDm"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="U0t-M2-e0b">
+                                <rect key="frame" x="3" y="45" width="159" height="67"/>
+                                <string key="text">example-package-dealer example-package-dealer example-package-dealer example-package-dealer example-package-dealer example-package-dealer </string>
                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="License" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4so-4b-IVm">
-                                <rect key="frame" x="0.0" y="107" width="165" height="20"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="39" id="YeQ-J3-jvX"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="12"/>
-                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="December 12, 2018" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u4Y-mY-UIC">
-                                <rect key="frame" x="0.0" y="135" width="165" height="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="September 12, 2018" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="u4Y-mY-UIC">
+                                <rect key="frame" x="0.0" y="132" width="165" height="15"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="u7M-Is-STp"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Verdana-Italic" family="Verdana" pointSize="12"/>
+                                <fontDescription key="fontDescription" name="Verdana-Italic" family="Verdana" pointSize="14"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="License" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="4so-4b-IVm">
+                                <rect key="frame" x="0.0" y="115" width="165" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="dy4-Pi-Hp0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="14"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -62,11 +60,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="gEc-RN-aMu" firstAttribute="top" secondItem="cEK-gU-YI7" secondAttribute="top" constant="3" id="6yi-lY-GPQ"/>
+                            <constraint firstItem="U0t-M2-e0b" firstAttribute="leading" secondItem="cEK-gU-YI7" secondAttribute="leading" constant="3" id="Jh2-wJ-hRo"/>
                             <constraint firstItem="u4Y-mY-UIC" firstAttribute="leading" secondItem="cEK-gU-YI7" secondAttribute="leading" id="Pqq-LM-syY"/>
                             <constraint firstItem="gEc-RN-aMu" firstAttribute="leading" secondItem="cEK-gU-YI7" secondAttribute="leading" constant="5" id="Qf7-6f-nkV"/>
+                            <constraint firstItem="4so-4b-IVm" firstAttribute="leading" secondItem="cEK-gU-YI7" secondAttribute="leading" id="Rnv-ar-gXY"/>
                             <constraint firstAttribute="trailing" secondItem="u4Y-mY-UIC" secondAttribute="trailing" id="bw9-8e-BLd"/>
-                            <constraint firstAttribute="bottom" secondItem="u4Y-mY-UIC" secondAttribute="bottom" id="fc2-87-atT"/>
+                            <constraint firstItem="U0t-M2-e0b" firstAttribute="top" secondItem="gEc-RN-aMu" secondAttribute="bottom" constant="3" id="ela-he-ZNF"/>
+                            <constraint firstAttribute="trailing" secondItem="U0t-M2-e0b" secondAttribute="trailing" constant="3" id="fZv-Gk-lRR"/>
+                            <constraint firstAttribute="bottom" secondItem="u4Y-mY-UIC" secondAttribute="bottom" constant="3" id="fc2-87-atT"/>
+                            <constraint firstItem="4so-4b-IVm" firstAttribute="top" secondItem="U0t-M2-e0b" secondAttribute="bottom" constant="3" id="lCv-fD-5DG"/>
                             <constraint firstAttribute="trailing" secondItem="gEc-RN-aMu" secondAttribute="trailing" constant="5" id="nYn-xS-Igc"/>
+                            <constraint firstAttribute="trailing" secondItem="4so-4b-IVm" secondAttribute="trailing" id="sSY-yI-IAC"/>
+                            <constraint firstItem="u4Y-mY-UIC" firstAttribute="top" secondItem="4so-4b-IVm" secondAttribute="bottom" constant="2" id="ygj-fi-Xus"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -79,6 +84,13 @@
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="175" height="160"/>
+            <connections>
+                <outlet property="cellView" destination="cEK-gU-YI7" id="eCx-uv-uUD"/>
+                <outlet property="dateLbl" destination="u4Y-mY-UIC" id="xjr-g0-EUl"/>
+                <outlet property="descriptionLbl" destination="U0t-M2-e0b" id="0si-pS-4Tx"/>
+                <outlet property="licenseLbl" destination="4so-4b-IVm" id="Wb3-21-9EF"/>
+                <outlet property="nameLbl" destination="gEc-RN-aMu" id="BxR-zH-01T"/>
+            </connections>
             <point key="canvasLocation" x="18.5" y="-1"/>
         </collectionViewCell>
     </objects>

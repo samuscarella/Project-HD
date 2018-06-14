@@ -11,8 +11,16 @@ import Foundation
 class Repository: Decodable {
     
     let name: String
-    let description: String
-    let created_at: Date
+    let created_at: String
+    let description: String?
     let license: String?
+    
+    init(json: [String:Any]) {
+        
+        name = json["name"] as! String
+        description = json["description"] as? String
+        created_at = json["created_at"] as! String
+        license = json["license"] as? String
+    }
     
 }
